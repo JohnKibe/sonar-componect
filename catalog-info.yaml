@@ -18,7 +18,7 @@ kind: Component
 metadata:
   annotations:
     backstage.io/kubernetes-id: banebp-sample
-  name: banebp-sample-component
+  name: banebp-kubernetes
 spec:
   lifecycle: test
   owner: my-team
@@ -35,6 +35,7 @@ metadata:
     lifecycle: production
   annotations:
     gitlab.com/project-id: '1203'
+    backstage.io/kubernetes-id: banebp-sample
 spec:
   lifecycle: production
   owner: cicd
