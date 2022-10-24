@@ -12,3 +12,17 @@ spec:
   type: library
   owner: cicd
   lifecycle: testing
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Cellulant_Sonar2
+  description: |
+    Backstage working with SoanrQube.
+  annotations:
+    sonarqube.org/project-key: absamonyglobvalidator
+spec:
+  type: library
+  owner: cicd
+  lifecycle: testing
+
