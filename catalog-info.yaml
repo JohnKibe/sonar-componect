@@ -7,6 +7,6 @@ metadata:
   annotations:
     sonarqube.org/project-key: Cellulant Technology
 spec:
-  type: library
+  type: service
   owner: cicd
   lifecycle: experimental
