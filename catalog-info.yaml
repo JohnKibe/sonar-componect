@@ -16,6 +16,33 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  annotations:
+    backstage.io/kubernetes-id: banebp-sample
+  name: banebp-sample-component
+spec:
+  lifecycle: test
+  owner: my-team
+  type: service
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cellulant-gitlab
+  description: |
+    GitLab service
+  labels:
+    system: gitlab
+    lifecycle: production
+  annotations:
+    gitlab.com/project-id: '1203'
+spec:
+  lifecycle: production
+  owner: cicd
+  type: service
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
   name: Cellulant_Sonar2
   description: |
     Backstage working with SoanrQube.
