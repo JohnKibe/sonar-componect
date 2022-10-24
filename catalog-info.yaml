@@ -6,7 +6,8 @@ metadata:
     Backstage working with SoanrQube.
   annotations:
     #sonarqube.org/project-key: absamonyglobvalidator
-    sonarqube.org/project-key: default
+    sonarqube.org/project-key: absa-ghana-self-registration-menu
+    sonarqube.org/project-key: absamonyglobvalidator
 spec:
   type: library
   owner: cicd
