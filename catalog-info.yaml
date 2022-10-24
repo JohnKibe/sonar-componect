@@ -5,8 +5,8 @@ metadata:
   description: |
     Backstage is an open-source developer portal that puts the developer experience first.
   annotations:
-    sonarqube.org/project-key: Cellulant Technology
+    sonarqube.org/project-key: absa-ghana-self-registration-menu
 spec:
-  type: service
+  type: library
   owner: cicd
   lifecycle: experimental
