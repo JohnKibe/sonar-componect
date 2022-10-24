@@ -6,7 +6,7 @@ metadata:
     Backstage working with SoanrQube.
   annotations:
     #sonarqube.org/project-key: absamonyglobvalidator
-    sonarqube.org/project-key: '*'
+    sonarqube.org/project-key: default
 spec:
   type: library
   owner: cicd
