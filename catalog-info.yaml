@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Cellulant Sonar
+  name: Cellulant_Sonar
   description: |
     Backstage working with SoanrQube.
   annotations:
     #sonarqube.org/project-key: absamonyglobvalidator
-    sonarqube.org/project-key: default
+    sonarqube.org/project-key: '*'
 spec:
   type: library
   owner: cicd
