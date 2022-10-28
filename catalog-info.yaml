@@ -34,7 +34,7 @@ metadata:
     system: gitlab
     lifecycle: production
   annotations:
-    gitlab.com/project-id: '1203'
+    gitlab.com/project-id: '3620'
     backstage.io/kubernetes-id: banebp-sample
 spec:
   lifecycle: production
