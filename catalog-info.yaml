@@ -5,9 +5,7 @@ metadata:
   description: |
     Backstage working with SoanrQube.
   annotations:
-    #sonarqube.org/project-key: absamonyglobvalidator
     sonarqube.org/project-key: absa-ghana-self-registration-menu
-    #sonarqube.org/project-key: absamonyglobvalidator
 spec:
   type: library
   owner: cicd
@@ -17,11 +15,22 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
+    backstage.io/kubernetes-id: tanzania-prod-kubernetes
+  name: tanzania-prod-kubernetes
+spec:
+  lifecycle: production
+  owner: cicd
+  type: service
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
     backstage.io/kubernetes-id: banebp-sample
   name: banebp-kubernetes
 spec:
-  lifecycle: test
-  owner: my-team
+  lifecycle: prod
+  owner: cicd
   type: service
 ---
 apiVersion: backstage.io/v1alpha1
