@@ -15,17 +15,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
-    backstage.io/kubernetes-id: tanzania-prod-kubernetes
-  name: tanzania-prod-kubernetes
-spec:
-  lifecycle: production
-  owner: cicd
-  type: service
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  annotations:
     backstage.io/kubernetes-id: banebp-sample
   name: banebp-kubernetes
 spec:
