@@ -14,7 +14,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: cellulant-kubernetes
+  name: Cellulant-Kubernetes
   description: |
     All Kubernetes Pods Statuses service
   labels:
@@ -34,8 +34,8 @@ metadata:
   description: |
     Backstage working with SoanrQube and GitLab.
   annotations:
-    sonarqube.org/project-key: absamonyglobvalidator
     gitlab.com/project-id: '3620'
+    sonarqube.org/project-key: absamonyglobvalidator
 spec:
   type: library
   owner: cicd
