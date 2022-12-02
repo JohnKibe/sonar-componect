@@ -37,7 +37,7 @@ metadata:
     gitlab.com/project-id: '3620'
     sonarqube.org/project-key: absamonyglobvalidator
 spec:
-  type: library
+  type: service
   owner: cicd
   lifecycle: testing
 
